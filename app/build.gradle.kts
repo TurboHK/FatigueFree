@@ -59,7 +59,7 @@ dependencies {
     implementation("androidx.camera:camera-extensions:1.3.0")
 
     // MediaPipe Tasks SDK (FaceMesh)
-    implementation("com.google.mediapipe:tasks-vision:0.10.12") // 确保版本号为最新稳定版
+    implementation("com.google.mediapipe:tasks-vision:latest.release") // 确保版本号为最新稳定版
 
     // OpenCV for Android
     implementation("org.opencv:opencv-android:4.5.3") // 可根据使用的 AAR 或模块调整
